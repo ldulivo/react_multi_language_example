@@ -1,13 +1,21 @@
 .NavBar {
   width: 100%;
+  max-width: 400px;
   height: 55px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #000;
+  font-size: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.NavBar > * {
+  width: 78px;
 }
 
 .NavBar a,

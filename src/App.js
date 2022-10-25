@@ -20,6 +20,9 @@ function App() {
               <Route path='/contactme' element={<ContactMe />} />
             </Routes>
         </header>
+        <div className='note'>
+          <h2>Distintos idiomas con <span>React Js</span></h2>
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -26,16 +26,18 @@ const NavBar = () => {
       >
         {t('global.contactme')}
       </NavLink>
-      <button
-        disabled={i18n.resolvedLanguage === 'es'}
-        onClick={() => i18n.changeLanguage('es')}>
-        Es
-      </button>
-      <button
-        disabled={i18n.resolvedLanguage === 'en'}
-        onClick={() => i18n.changeLanguage('en')}>
-        En
-      </button>
+      <div className={styles.button}>
+        <button
+          disabled={i18n.resolvedLanguage === 'es'}
+          onClick={() => i18n.changeLanguage('es')}>
+          Es
+        </button>
+        <button
+          disabled={i18n.resolvedLanguage === 'en'}
+          onClick={() => i18n.changeLanguage('en')}>
+          En
+        </button>
+      </div>
 
       <div className={ `${styles.bandera} ${i18n.resolvedLanguage === 'es' ? styles.spanish : ''}` }></div>
     </nav>
