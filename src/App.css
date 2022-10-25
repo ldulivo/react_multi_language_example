@@ -5,6 +5,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  position: absolute;
+  top: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -19,9 +21,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 300px;
 }
 
 .App-link {

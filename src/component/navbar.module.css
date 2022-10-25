@@ -1,0 +1,44 @@
+.NavBar {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+}
+
+.NavBar a,
+.NavBar a:visited {
+  color: #fff;
+}
+
+.NavBar a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.NavBar > button {
+  /* background-color: #61dafb; */
+}
+
+.NavBar a.active{
+  color: #61dafb;
+}
+
+.bandera {
+  background-image: url('../img/reino-unido.png');
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+}
+
+.spanish {
+  background-image: url('../img/espana.png') !important;
+}
