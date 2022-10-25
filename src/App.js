@@ -8,7 +8,7 @@ import logo from './logo.svg';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='react_multi_language_example'>
       <div className="App">
         <header className="App-header">
           <NavBar />
